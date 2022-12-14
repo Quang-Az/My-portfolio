@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 10.8rem;
+    height: 13.5rem;
+    position: absolute;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orange);
+    border-radius: 9px;
+    box-shadow: var(--boxShadow);
+    padding: 0 20px 2rem 20px;
+}
+
+.card img {
+    transform: scale(0.7);
+    margin-bottom: -2rem;
+    margin-top: -1.4rem;
+}
+
+.card span:nth-of-type(2) {
+    font-size: 15px;
+    color: var(--gray);
+    margin-top: -0.1rem;
+}
+
+.card button {
+    background: rgb(244, 244, 244);
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290fd;
+    margin-top: -0.5rem;
+}

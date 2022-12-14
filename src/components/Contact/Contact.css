@@ -1,0 +1,50 @@
+.contact-form {
+    padding: 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.c-left {
+    margin-top: -8rem;
+}
+
+.c-right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.c-right>from {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.c-right .user {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+}
+
+textarea {
+    height: 4rem !important;
+}
+
+.c-blur1 {
+    top: 1rem;
+    left: 8rem;
+}
+
+.c-button {
+    width: 5rem;
+    height: 2.2rem;
+}
