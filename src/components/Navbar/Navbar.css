@@ -45,3 +45,13 @@
     height: 2.2rem;
     flex: 2;
 }
+
+@media screen and (max-width: 480px) {
+    .n-right__list {
+        display: none;
+    }
+
+    .n-button {
+        display: none;
+    }
+}

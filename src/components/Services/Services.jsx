@@ -17,7 +17,7 @@ function Services() {
     const darkMode = them.state.darkMode;
 
     return (
-        <div className='services'>
+        <div className='services' id='Services'>
             {/* left side */}
             <div className="awesome">
                 <span style={{ color: darkMode ? 'white' : '' }}>My Awesome</span>

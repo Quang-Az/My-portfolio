@@ -28,12 +28,12 @@
 
 .w-mainCircle> :nth-child(1) {
     top: 6rem;
-    left: -2rem;
+    left: -2.8rem;
 }
 
 .w-mainCircle> :nth-child(2) {
-    top: -1.5rem;
-    left: 7rem;
+    top: -2rem;
+    left: 6.2rem;
 }
 
 .w-mainCircle> :nth-child(3) {
@@ -43,7 +43,7 @@
 
 .w-mainCircle> :nth-child(4) {
     top: 14.5rem;
-    left: 7rem;
+    left: 6.2rem;
 }
 
 .w-mainCircle> :nth-child(5) {
@@ -78,12 +78,12 @@
 
 .blueCircle {
     background: #1949b8;
-    left: 11rem;
-    top: -2rem;
+    left: 18rem;
+    top: 0rem;
 }
 
 .yellowCircle {
     background: #f5c32c;
-    left: 11rem;
-    top: 7em;
+    left: 18rem;
+    top: 9em;
 }

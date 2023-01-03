@@ -15,9 +15,9 @@ const Portfolio = () => {
     const darkMode = them.state.darkMode;
 
     return (
-        <div className="portfolio">
+        <div className="portfolio" id='Portfolio'>
             {/* heading */}
-            <span style={{ color: darkMode ? 'white' : '' }} >Rencent Projects</span>
+            <span style={{ color: darkMode ? 'white' : '' }} >Recent Projects</span>
             <span>Portfolio</span>
 
             {/* slide */}

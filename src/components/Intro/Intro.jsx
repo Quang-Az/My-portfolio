@@ -56,14 +56,15 @@ const Intro = () => {
                     initial={{ top: "-4%", left: "74%" }}
                     whileInView={{ left: '68%' }}
                     transition={transition}
-                    className="motion-div">
+                    className="motion-div floating-div">
                     <FloatingDiv img={crown} text1="Web" text2="Developer" />
                 </motion.div>
                 <motion.div
                     initial={{ left: "24%" }}
                     whileInView={{ left: "10%" }}
                     transition={transition}
-                    style={{ top: '18rem', left: '0' }}>
+                    style={{ top: '18rem', left: '0' }}
+                    className=" floating-div">
                     <FloatingDiv img={thumbup} text1="Best Design" text2="Award" />
                 </motion.div>
                 {/* blur divs */}
